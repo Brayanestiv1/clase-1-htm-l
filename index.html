@@ -23,6 +23,16 @@
     <h6>titulo 6</h6>
     <hr width="75%" align="lefl" heigth="5px">
 
+    <h2>MENU DE NAVETGACION</h2>
+    <ol>
+        <!-- (li>a[href="#"]{Enlace $})*5 -->
+        <li><a href="#mark1">Lista no ordenadas</a></li>
+        <li><a href="#mark2" >Listas ordenadas</a></li>
+        <li><a href="#mark3" >Hipervinculos externos</a></li>
+        <li><a href="#mark4" >Hipervinculos locales</a></li>
+        <li><a href="#mark5" >Hipervinculos internos</a></li>
+    </ol>
+
     <p>
          commodi <u>officiis!</u> <s>Asperiores</s>, aliquid. Ad fuga <b>fugiat</b> suscipit facilis laborum 
          consectetur dolorum sequi <strong>labore</strong> ipsa.<br><br> <em>Nemo amet impedit reiciendis minima provident 
@@ -49,7 +59,7 @@
      
 
     <!--LISTAS-->
-    <h2>listas no ordenadas</h2>
+    <h2 id="mark1">listas - no ordenadas</h2>
     <ul>
         <li>Elemento 1</li>
         <li>Elemento 2</li>
@@ -75,7 +85,7 @@
         <li>Elemento 4</li>
     </ul>
 
-    <h2>Listas ordenadas</h2>
+    <h2 id="mark2">Listas ordenadas</h2>
 <ol start="3" type="a">
     <li>Elemento 1</li>
     <li>Elemento 2</li>
@@ -101,5 +111,92 @@
     <li>Elemento 3</li>
     <li>Elemento 4</li>
 </ol>
+
+<h2>Hipervinculos</h2>
+<h3 id="mark3">Hipervinculos externos</h3>
+
+<ul>
+    <ol>
+        <a href="https://www.google.com">Google</a>
+    </ol>
+    <ol>
+        <a href="https://www.amazon.com" target="_blank">Amazon</a> <!--el target habre el link en una perstaña distinta-->
+    </ol>
+    <ol>
+        <a href="https://www.ebay.com" target="_blank" title="Ir a ebay">Ebay</a> <!--el title pone un comentario al dejar el curson encima del link-->
+    </ol>
+    <ol>
+        <a href="https://wwwcampuslands.com" target="_blank" title="Ir a campus">Campus</a>
+    </ol>
+
+
+</ul>
+
+<h3 id="mark4">Hipervinculos Locales</h3>
+
+<ul>
+    <!-- (li>a)*2 -->
+     <li><a href="html/ciclo2/python.html" target="_blank" title="Ir a la pagina de python">Python</a></li>
+     <li><a href="html/ciclo1/pseudocodigo.html" target="_blank" title="Ir a la pagina pseudocodigo">pseudocodigo</a></li>
+</ul>
+
+<h3 id="mark5">Hipervinculos Internos</h3>
+
+<br><br><br>
+<a href="#menu">Ir al menu</a>
+
+
+    <h2>Imagenes</h2>
+
+<!--freepik-->
+<figure>
+    <img src="img/programador.png" alt="programacion" title="imagen" width="35%" title="imagen"
+height="" border="5px" align="right" hspace="50px" srcset="img/programador.png 758w, img/programador.png 1200w"> <!--alt si la imagen no carga pone el texto que le asignemos-->
+    <figcaption>programacion</figcaption>
+</figure>
+<p aling="justify">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga facere fugiat reiciendis quia tempore quisquam rem consequatur id mollitia magni veritatis sed, architecto animi quibusdam error neque fugit repellendus ullam?
+At impedit eum ratione assumenda eos nesciunt, tempore nostrum ad maxime maiores labore alias. Veniam, fugit! Ut quod ducimus consequatur, voluptates non doloremque, aspernatur quis quia fugit quaerat minus deserunt.
+Incidunt reiciendis, laudantium recusandae cum accusantium enim eius fugit? Distinctio dignissimos amet nihil impedit molestiae corrupti, eius vitae in inventore accusantium quidem quas unde quisquam atque non? Atque, excepturi doloremque!
+Voluptates ipsum eum quibusdam iusto rem ut quia. Laudantium reiciendis fuga quis eum nihil doloremque non, modi ipsam laboriosam quae placeat vel mollitia molestiae adipisci voluptatum rem! Molestiae, quae qui?
+Cupiditate itaque a tenetur suscipit beatae, dolorem reiciendis voluptate architecto mollitia, laborum voluptatum! Et, harum. Fugit maxime eligendi error asperiores dolor saepe incidunt. Perferendis, veniam quaerat iusto earum officia nobis.
+
+</p>
+
+<br><br><br><br><br><br><br><br><br>
+<h2>videos</h2>
+
+<!--pexels-->
+<video src="video/11946487_2160_3840_30fps.mp4" 
+width="300" height="250"
+autoplay loop 
+controls muted 
+title="imagen"
+ >flores
+</video>
+
+<h2>Audio</h2>
+
+<audio src="audios/audio.mp3"
+controls loop autoplay meted></audio>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
