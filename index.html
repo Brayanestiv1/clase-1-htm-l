@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -180,15 +180,135 @@ title="imagen"
 <audio src="audios/audio.mp3"
 controls loop autoplay meted></audio>
 
+<h1>Tablas de HTML</h1>
+<hr>
+<table align="center" border="1" width="50%" 
+cellspacing="10" cellpadding="10" bgcolor="#f9e79f" 
+bordercolor="ff5733">
+    <tr bgcolor="#FFC300">
+        <th colspan="2">Celda1</th>
+        <!-- <th>Celda2</th> -->
+        <th>Celda3</th>
+    </tr>
+    <tr align="right" bgcolor="ff5733">
+        <th>Celda4</th>
+        <td rowspan="2">Celda5</td>
+        <td>Celda6</td>
+    </tr>
+    <tr align="left">
+        <th>Celda7</th>
+        <td align="center">Celda8</td>
+        <td align="right">Celda9</td>
+    </tr>
+</table>
+<br><br>
 
 
 
+<table width="50%" cellspacing="10" cellpadding="10" align="center" border="1">
+    <tr>
+        <th>A,B
+            colspan
+        </th>
+        <th rowspan="2">C,F
+            rowspan
+        </th>
+    
+    </tr>
+    <tr>
+        <th>  
+            D, E
+        </th>
+    </tr>
+</table>
+
+<hr>
+
+<table border="1" width="50%" cellpadding="20">
+    <thead>
+            <tr>
+                <th>Tipo Dato A</th>
+                <th>Tipo Dato B</th>
+                <th>Tipo Dato C</th>
+            </tr>
+    </thead>
+    <tbody align="center">
+            <!-- (tr>(td*3))*3 -->
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            
+    </tbody>
+    <tfoot align="center">
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+    </tfoot>
+    <caption><i><strong>Tipo de datos</strong></i></caption>
+</table>
+<hr>
 
 
+<table border="1" width="50%" cellpadding="20">
+    <caption><i><strong>Tipo de datos</strong></i></caption>
+    <thead>
+            <tr>
+                <th>Pais</th>
+                <th>Capital</th>
+            </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mexico</td>
+            <td>Cd. de Mexico</td>
+            
+        </tr>
+        <tr>
+            <td>Canada</td>
+            <td>Otawa</td>
+            
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Estados Unidos</td>
+            <td>Washington</td>
+        </tr>
+    </tfoot>
+</table>
 
-
-
-
+<table border="1" width="50%" cellpadding="20">
+    <caption><i><strong>Tipo de datos</strong></i></caption>
+    <thead>
+            <tr>
+                <th>Partes  de la computadora</th>
+            </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mexico</td>
+            <td>Cd. de Mexico</td>
+            
+        </tr>
+        <tr>
+            <td>Canada</td>
+            <td>Otawa</td>
+            
+        </tr>
+    </tbody>
+    <tfoot>
+       
+    </tfoot>
+</table>
 
 
 
