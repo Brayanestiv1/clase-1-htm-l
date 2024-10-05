@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="" method="get"></form>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+        <label for="fecha">Elija una fecha:</label>
+        <input type="date" name="fecha" id="fecha" value="dd-mm-aaaa">
+        <br>
+        <label for="file">Subir un fichero:</label>
+        <input type="file" name="file" id="file">
+        <br>
+        <label for="Sexo"></label>
+        <input type="radio" name="Sexo" ip="Sexo" value="AMD" checked="AMD"> AMD
+        <input type="radio" name="Sexo" ip="Sexo" value="Intel i5" checked="Intel i5"> Intel i5
+        <input type="radio" name="Sexo" ip="Sexo" value="Intel i7" checked="Intel i7"> Intel i7
+        </fieldset>
+
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <label for="Sexo"></label>
+            <input type="radio" name="Sexo" ip="Sexo" value="Matematicas" checked="Matematicas"> Matematicas
+            <input type="radio" name="Sexo" ip="Sexo" value="Historia" checked="Historia"> Historia
+            <input type="radio" name="Sexo" ip="Sexo" value="Geografia" checked="Geografia"> Geografia
+            <input type="radio" name="Sexo" ip="Sexo" value="Lengua" checked="Lengua"> Lengua
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" ip="nombre" placeholder="Ingresa tu nombre">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" ip="apellido" placeholder="Ingresa tu apellido">
+            <br>
+            <label for="direcccion">Direccion:</label>
+            <input type="text" name="direccion" ip="direccion" placeholder="Ingresa tu direccion">
+            <br><br>
+            <label for="color">Elija un color:</label>
+            <input type="color" name="color" ip="color">
+            <br>
+            <label for="comentario"></label>
+            <textarea name="conmentario" id="comentario" cols="40" rows="10" placeholder="Utilice este cuadro para escribir"></textarea>
+            <br>
+            <label for="fecha">Elija una fecha:</label>
+            <input type="date" name="fecha" id="fecha" value="dd-mm-aaaa">
+            <br>
+            <label for="Idiomas"></label>
+            <select name="Idiomas" id="Idiomas">
+                <option value="Ingles" selected>Ingles</option>
+                <option value="Frances">Frances</option>
+                <option value="Español">Español</option>
+                <option value="Ruso">Ruso</option>
+            </select>
+            <br>
+            <label for="time">Elije una hora:</label>
+            <input type="time" name="hora" ip="hora" value="-- : --">
+            <br>
+            <label for="file">Elija un fichero</label>
+            <input type="file" name="file" id="file">
+            <br>
+            <label for="Sexo"></label>
+            <input type="radio" name="Sexo" ip="Sexo" value="Mujer" checked="Mujer"> Mujer
+            <input type="radio" name="Sexo" ip="Sexo" value="Hombre" checked="Hombre"> Hombre
+        </fieldset>
+</body>
+</html>
